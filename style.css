@@ -1,0 +1,107 @@
+.name{ 
+    color: teal;
+    margin-left: 450px;
+}
+
+body{
+    background-color: rgb(197, 245, 224);
+}
+
+.link{
+    margin-right: 50px;
+    color:teal;
+}
+
+.header{
+    background:lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro{
+
+    display:flex;
+    flex-direction: column ;
+
+}
+h2,p{
+    text-align: center;
+}
+
+
+.games{
+
+    display:flex;
+    
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+
+    
+}
+.link{
+    margin-top: 20px ;
+}
+a:link {
+    color:teal;
+    
+   
+
+
+}
+a:visited{
+    color:teal
+}
+
+.tube{
+
+    display:flex;
+    
+    justify-content: flex-end ;
+}
+
+
+
+.me{
+
+
+
+   margin-right: 300px ;
+   margin-left: 300px ;
+
+
+}
+
+.head{
+
+    color:teal;
+    text-align: center;
+}
+
+.game{
+    position:relative;
+    margin-top: 40px;
+}
+
+.game h3{
+    color: teal;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    opacity: 0;
+}
+
+.game:hover h3{
+    opacity:1;
+}
+
+.game:hover img{
+    opacity:0.33;
+}
+
+
+
+
+
+
+
+
